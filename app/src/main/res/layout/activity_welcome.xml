@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/scroll_view_padding"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emoji_money"
+            android:textSize="@dimen/welcome_emoji_size"
+            android:layout_marginBottom="@dimen/large_spacing" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_title"
+            android:textSize="@dimen/welcome_title_size"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/element_spacing" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_description"
+            android:textSize="@dimen/welcome_description_size"
+            android:lineSpacingExtra="@dimen/line_spacing_extra"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/large_spacing" />
+
+        <Button
+            android:id="@+id/button_select_folder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_folder"
+            android:layout_marginBottom="@dimen/element_spacing" />
+
+    </LinearLayout>
+</ScrollView>

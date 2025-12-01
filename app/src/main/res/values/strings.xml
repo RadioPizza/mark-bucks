@@ -1,3 +1,56 @@
 <resources>
     <string name="app_name">MarkBucks</string>
+    <string name="welcome_title">Выберите папку для сохранения транзакций</string>
+    <string name="welcome_description">Выберите папку для сохранения транзакций в формате Markdown. Это необходимо для работы приложения.</string>
+    <string name="select_folder">Выбрать папку</string>
+    <string name="expense">Расход</string>
+    <string name="income">Доход</string>
+    <string name="amount">Сумма:</string>
+    <string name="amount_hint">0.00</string>
+    <string name="category">Категория:</string>
+    <string name="transaction_type">Тип транзакции</string>
+    <string name="category_hint">Категория</string>
+    <string name="add_transaction">Добавить транзакцию</string>
+    <string name="enter_amount">Введите сумму</string>
+    <string name="invalid_amount">Сумма должна быть положительным числом</string>
+    <string name="folder_not_selected">Папка не выбрана</string>
+    <string name="folder_not_found">Папка не найдена</string>
+    <string name="transaction_saved">Транзакция сохранена</string>
+    <string name="file_creation_error">Не удалось создать файл</string>
+    <string name="save_error">Ошибка сохранения: %s</string>
+    <string name="emoji_money">💰</string>
+
+    <string-array name="expense_categories">
+        <item>Продукты</item>
+        <item>Транспорт</item>
+        <item>Рестораны</item>
+        <item>Развлечения</item>
+        <item>Аренда</item>
+        <item>Коммунальные услуги</item>
+        <item>Одежда</item>
+        <item>Здоровье</item>
+        <item>Образование</item>
+        <item>Подарки</item>
+        <item>Путешествия</item>
+        <item>Дом</item>
+        <item>Автомобиль</item>
+        <item>Спорт</item>
+        <item>Красота</item>
+        <item>Электроника</item>
+        <item>Прочее</item>
+    </string-array>
+
+    <string-array name="income_categories">
+        <item>Зарплата</item>
+        <item>Фриланс</item>
+        <item>Инвестиции</item>
+        <item>Проценты</item>
+        <item>Подарок</item>
+        <item>Возврат налогов</item>
+        <item>Премия</item>
+        <item>Стипендия</item>
+        <item>Пенсия</item>
+        <item>Сдача в аренду</item>
+        <item>Прочее</item>
+    </string-array>
 </resources>
